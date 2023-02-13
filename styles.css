@@ -1,0 +1,38 @@
+html, body {
+    background-color:#81b1fd;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+
+    display: flex;
+    /* background-color: blueviolet; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+#cnv-background {
+    position: absolute;
+    /* background-color: greenyellow; */
+
+}
+
+#time {
+    /* background-color: blue;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+p {
+    font-size: 5em;
+    font-family: 'Trebuchet MS', sans-serif; 
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    z-index: 100;
+}
